@@ -8,9 +8,9 @@ while True:
     print()
     print("==================MENU==================")
     print()
-    print("******(1)Add an item*******")
-    print("******(2) Search******")
-    print("******(3) Exit (y/n)******")
+    print("************(1)Add an item************")
+    print("************(2)Search************")
+    print("************(3)Exit (y/n)************")
     print()
     print("========================================")
     print()
@@ -44,4 +44,11 @@ while True:
         exit()
         break
     else:
-        print("That is not a valid option.)
+        print("That is not a valid option.")
+
+    My_exit = input("Do you want to continue? Yes/No: ")
+    if My_exit == "Yes":
+            continue
+    else:
+        print("THANK YOU!!!!")
+        break
