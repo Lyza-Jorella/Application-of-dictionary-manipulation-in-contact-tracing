@@ -32,7 +32,7 @@ if (n==1):
                                    "Citizenship:": My_Citizenship, "Religion:": My_Religion}
         print("The information is saved!!!")
 elif (n==2):
-        My_Search=input("Search for full name: )
+        My_Search=input("Search for full name: ")
         if My_Search in My_Information:
             for key, value in My_Information[My_Search].items():
                 print(key, value)
