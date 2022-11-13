@@ -22,6 +22,21 @@ if (n==1):
         My_Name=input("Full name:")
         My_Age=int(input("Age:"))
         My_Address=input("Address: ")
+        My_Birthdate = input("Birthdate:")
+        My_BirthPlace = input("BirthPlace: ")
+        My_Contactnumber = int(input("Contactnumber:"))
+        My_Citizenship = input("Citizenship: ")
+        My_Religion = input("Religion: ")
+        My_Information[My_Name] = {"Age:": My_Age, "Address:": My_Address, "Birthdate:": My_Birthdate,
+                                   "BirthPlace:": My_BirthPlace, "Contactnumber:": My_Contactnumber,
+                                   "Citizenship:": My_Citizenship, "Religion:": My_Religion}
+        print("The information is saved!!!")
+
+
+
+
+
+
 
 
 
