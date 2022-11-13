@@ -1,6 +1,6 @@
 print()
-print("********Programmed by:********")
-print("********Lyza Jorella R. Del Rosario********")
+print("************Programmed by:************")
+print("************Lyza Jorella R. Del Rosario************")
 
 My_Information = {}
 
